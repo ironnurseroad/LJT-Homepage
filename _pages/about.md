@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am a first-year PhD candidate at HKUST NLP Group. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024. My research focuses on natural language processing and machine learning. My research interests include LLM Reasoning and Reinforcement Learning, Hallucination in Vision-Language Models (VLM), and LLM truthfulness and Interpretability.
 
 ## Academic Background
@@ -33,7 +35,7 @@ Professor Junxian He previously advised me during undergraduate studies at SJTU.
 
 ## Publications
 
-All publications recorded in memory are listed below. The same records are available on the [Publications subpage]({{ base_path }}/publications/), and my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) is also available.
+All publications are listed below. The same records are available on the [Publications subpage]({{ base_path }}/publications/), and my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) is also available.
 
 1. Junteng Liu (First author), Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. *SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond*. Arxiv, 2025. Has a GitHub code repository.
 2. Junteng Liu (First author), Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. *On the Perception Bottleneck of VLMs for Chart Understanding*. Arxiv, 2025. GitHub code repository: Vision4Chart.
